@@ -1,0 +1,91 @@
+body{
+    background-color:hsl(133, 31%, 36%) ;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+
+.bg-image {
+    position: absolute;
+}
+
+.bg-image--botom {
+    top: 400px;
+    left: 200px;
+}
+
+.bg-image--top {
+    bottom: 400px;
+    right: 200px;
+}
+
+.card {
+    position: relative;
+    top: 30vh;
+    width: 400px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card__header {
+    position: relative;
+    height: 120px;
+    text-align: center;
+}
+
+.card__header--image {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card__header--profile {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: white;
+}
+
+.card__body {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid hsl(220, 3%, 77%);
+}
+
+.card__text {
+    margin: 0;
+    margin-bottom: 0.5em;
+
+}
+
+.card__text--light {
+    color: hsl(227, 10%, 46%)
+}
+
+.card__footer {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.card__stats {
+    display: inline-block;
+    margin: 0 0.5em;
+    text-align: center;
+    width: 100px;
+}
+
+.card__number {
+    margin-bottom: .5em;
+    font-size: 1.8rem;
+}
