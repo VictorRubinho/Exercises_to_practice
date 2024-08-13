@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.cards {
+    width: 90%;
+    height: 500px;
+    margin: 200px auto;
+}
+
+.card {
+    text-align: left;
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    padding-top: 3em;
+    padding-left: 2em;
+    font-size: 0;
+    color: hsl(0 0 0 /75%);
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+
+}
+
+.card__title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.card__description {
+    width: 200px;
+}
+
+.card--orange {
+    background-color: hsl(31, 77%, 52%);
+    font-size: 1rem;
+}
+
+.card--cyan  {
+    background-color: hsl(184, 100%, 22%);
+    font-size: 1rem;
+}
+
+.card--dark-cyan {
+    background-color: hsl(179, 100%, 13%);
+    font-size: 1rem;
+}
+.card__cta {
+    position: absolute;
+    padding: 0.7em 2em;
+    background-color: aliceblue;
+    border-radius: 1.2em;
+    text-decoration: none;
+    bottom: 30px;
+}
+
+.card_cta--orange {
+    color: hsl(31, 77%, 52%);
+}
+
+.card_cta--cyan {
+    color: hsl(184, 100%, 22%);
+}
+
+.card_cta--dark-cyan {
+    color: hsl(179, 100%, 13%);
+}
