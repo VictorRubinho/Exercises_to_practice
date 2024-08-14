@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.star-reduction {
+    width: 2%;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-image: url(./assets/vecteezy_web-background-design-with-purple-gradient-pattern_6757389.svg);
+}
+
+
