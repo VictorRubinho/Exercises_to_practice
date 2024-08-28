@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 20%);
+    font-family: sans-serif;
+    
+}
+
+.grid-container {
+    position: relative;
+    width: 1400px;
+    margin: 3rem auto;
+}
+
+.card {
+    display: inline-block;
+    height: 400px;
+    vertical-align: top;
+    margin-right: 1.5em;
+    padding: 2em;
+    line-height: 1.5;
+    border-radius: 1em;
+}
+
+.card__title {
+    font-size: 1.1rem;
+}
+
+.card__text {
+    opacity: 70%;
+    font-size: 1rem;
+}
+
+.card--first {
+    width: 675px;
+}
+
+.card--second {
+    width: 350px;
+}
+
+.card--third {
+    width: 300px;
+    margin-right: 0;
+    height: 825px;
+}
+
+.card--fourth,
+.card--fifth {
+    position: absolute;
+    top: 425px;
+}
+
+.card--fourth {
+    top: 425px;
+    left: 0;
+    width: 325px;
+}
+
+.card--fifth {
+    left: 355px;
+    width: 700px;
+
+}
+
+.card--purple {
+    background-color: purple;
+}
+
+.card--grey {
+    background-color: grey;
+}
+
+.card--white {
+    background-color: white;
+}
+
+.card--yellow {
+    background-color: yellow;
+}
+
+.card--red {
+    background-color: rgb(146, 5, 5);
+}
+
+.card--purple,
+.card--grey,
+.card--red {
+    color: azure;
+}
+
+.user {
+    width: 250px;
+}
+
+.user__image {
+    border-radius: 50%;
+    max-width: 25%;
+}
+
+.user__image,
+.user__info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user__name,
+.user__category {
+    margin: 0.5em 1em;
+    opacity: 80%;
+}
