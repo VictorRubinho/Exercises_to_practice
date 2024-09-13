@@ -79,11 +79,10 @@ a {
 .grid-box-5,
 .grid-box-6 {
     grid-column: 1;
-    
 }
 
 .grid-box-1 {
-    grid-row: 1;
+    grid-row: 1; 
 }
 
 .grid-box-2 {    
@@ -109,7 +108,8 @@ a {
 .grid-box-1,
 .grid-box-4,
 .grid-box-5 {
-    padding: 80px 30px;
+    padding: 40px 80px;
+    
 }
 
 
