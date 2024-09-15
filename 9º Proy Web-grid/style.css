@@ -21,7 +21,6 @@ p {
     grid-template-columns: repeat(8, 1fr);
     grid-auto-rows: minmax(200px, auto);
     height: 100vh;
-    gap: 10px;
 }
 
 .box {
