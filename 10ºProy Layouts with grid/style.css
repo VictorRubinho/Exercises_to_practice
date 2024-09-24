@@ -22,12 +22,31 @@ button {
     margin: 10px auto;
     border-radius: 10px;
     padding: 1%;
-    cursor: pointer;
-    
+    cursor: pointer;    
+}
+
+.layout-1 {
+    background-color: tomato;
+}
+
+a .layout-2 {
+    background-color: blue;
+    color: white;
+}
+
+a .layout-3 {
+    background-color: green;
+    color: white;
+}
+
+a .layout-4 {
+    background-color: rgb(110, 110, 4);;
+    color: white;
 }
 
 .button:hover {
     background: tomato;
+    color: white;
 }
 
 .button-2 {
@@ -37,12 +56,41 @@ button {
     margin: 10px auto;
     border-radius: 10px;
     padding: 1%;
-    cursor: pointer;
-    
+    cursor: pointer;    
+}
+
+.button-3 {
+    font-size: 1.3rem;   
+    border: 2px solid green;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 1%;
+    cursor: pointer;    
+}
+
+.button-4 {
+    font-size: 1.3rem;   
+    border: 2px solid rgb(110, 110, 4);
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 1%;
+    cursor: pointer;    
 }
 
 .button-2:hover {
     background: blue;
+    color: white;
+}
+
+.button-3:hover {
+    background: green;
+    color: white;
+}
+
+.button-4:hover {
+    background: rgb(110, 110, 4);
     color: white;
 }
 
@@ -68,6 +116,34 @@ button {
     height: 50vh;
 }
 
+header.border_1,
+main.border_1 {
+    border: 4px solid tomato;
+}
+
+header.border_2,
+main.border_2 {
+    border: 4px solid blue;
+}
+
+header.border_3,
+main.border_3,
+footer.border_3,
+aside.border_3,
+div.ads-2,
+nav.border_3 {
+    border: 4px solid green;
+}
+
+header.border_4,
+main.border_4,
+footer.border_4,
+aside.border_4,
+div.ads,
+nav.border_4 {
+    border: 4px solid rgb(110, 110, 4);
+}
+
 .task-1 {
     display: grid;
     height: 100vh;
@@ -83,13 +159,131 @@ button {
     align-items: center;
 }
 
-/* .task-1 .item-1 {
+.task-2 .item-1 {
     grid-column: 2 / span 4;
     grid-row: 2;
 }
 
-.task-1 .item-2 {
+.task-2 .item-2 {
     grid-column: 6 / span 6;
     grid-row: 2;
-} */
+}
 
+.task-3 {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto auto 1fr auto auto auto;
+    gap: 24px;
+} 
+
+@media (min-width: 720px) {
+    .task-3 {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto auto 1fr auto;
+    }
+
+    .task-3 header {
+        grid-column: 1 / span 12;
+    }
+
+    .task-3 nav {
+        grid-column: 1 / span 12;
+    }
+
+    .task-3 aside {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+    }
+
+    .task-3 main {
+        grid-column: 3 / span 10;
+    }
+
+    .task-3 .ads {
+        grid-column: 1 / span 2;
+    }
+
+    .task-3 footer {
+        grid-column: 3 / span 10;
+    }
+}
+
+@media (min-width: 1020px) {
+       
+    .task-3 nav {
+        grid-column: 3 / span 8;
+    }
+
+    .task-3 aside {
+        grid-row: 2 / 4;
+    }
+
+    .task-3 main {
+        grid-column: 3 / span 8;
+    }
+
+    .task-3 .ads-2 {
+        grid-column: 11 / span 2;
+        grid-row: 2 / 4;
+    }
+
+    .task-3 footer {
+        grid-column: 1 / span 12;
+    }
+}
+
+.task-4 {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto auto 1fr auto auto auto;
+    gap: 25px;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "aside main main"
+    "footer footer footer";
+}
+
+.task-4 header {
+    grid-area: header;
+}
+
+.task-4 nav {
+    grid-area: nav;
+}
+
+.task-4 aside {
+    grid-area: aside;
+}
+
+.task-4 main {
+    grid-area: main;
+}
+
+.task-4 footer {
+    grid-area: footer;
+}
+
+@media (min-width: 1200px) {
+    .task-4 {
+        grid-template-areas: 
+            "header header header header"
+            "aside nav nav nav"
+            "aside main main main"
+            "footer footer footer footer";
+        grid-template-rows: auto auto 1fr auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .task-4 {
+        grid-template-areas: 
+            "header header"
+            "nav nav"
+            "main main"
+            "main main"
+            "aside aside"
+            "footer footer";
+        
+    }
+}
