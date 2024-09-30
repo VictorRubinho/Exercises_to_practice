@@ -78,6 +78,8 @@ img {
 .card {
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
 }
 
 /* Paddings */
@@ -261,6 +263,50 @@ form .form-control {
     background: #fff;
     border: none;
     border-bottom: 1px solid #ced4da;
+}
+
+/* Stats */
+
+#stats {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#stats .txt-large {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* CLI */
+
+.cli .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid img {
+    grid-column: 1 /span 2;
+    grid-row: 1 / span 2;
+}
+
+/* Cloud */
+
+.cloud {
+    margin-top: 50px;
+}
+
+.cloud .flex-box-2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* Languages */
+
+.languages h2,
+.languages h4 {
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 /* Animations */
