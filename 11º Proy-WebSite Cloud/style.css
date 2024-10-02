@@ -118,8 +118,20 @@ img {
     background-color:#fff;
 }
 
+.bk-grey {
+    background: var(--grey-color);
+}
+
 .bk-home {
     background: url(./assets/bk-showcase.jpg);
+}
+
+.bk-features {
+    background: url(./assets/bk-features.jpg);
+}
+
+.bk-docs {
+    background: url(./assets/docs.png);
 }
 
 .bk {
@@ -151,6 +163,12 @@ img {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+/* Width */
+
+.w-50 {
+    width: 50%;
 }
 
 /* Button */
@@ -308,6 +326,79 @@ form .form-control {
     text-align: center;
     padding-bottom: 10px;
 }
+
+/* Title */
+
+.title .flex {
+    justify-content: space-between;
+}
+
+/* Subtitle */
+
+.subtitle .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer */
+
+#mainfooter ul li a {
+    color: white;
+}
+
+#mainfooter .social i{
+    color: white;
+    padding-right: 15px;
+}
+
+/* Features */
+
+.features .grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.features .flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.features .flex i {
+    padding-right: 20px;
+}
+
+.features .card:nth-child(1){
+    grid-column: span 3;
+    grid-row: 1;
+}
+
+.features .card:nth-child(2){
+    grid-column: span 2;
+    grid-row: 2;
+    
+}
+
+.features .card:nth-child(3){
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.features .card:nth-child(4){
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.features .card:nth-child(5){
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.features .card:nth-child(6){
+    grid-column: 3;
+    grid-row: 3;
+}
+
 
 /* Animations */
 

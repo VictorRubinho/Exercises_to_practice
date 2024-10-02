@@ -1,0 +1,85 @@
+
+
+/* Paddings */
+
+.py-4 {
+    padding: 1rem 0;
+}
+
+/* Flex */
+
+.flex {
+    flex-direction: column;
+}
+
+/* GRID */
+
+
+
+/* Navbar */
+
+.navbar {
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+.navbar ul li {
+    margin-left: 0;
+    padding: 10px;
+}
+
+
+/* Showcase */
+
+.showcase {
+    height: 100%;
+    text-align: center;
+  }
+
+.showcase-text {
+    padding-top: 20px;
+    padding-right: 0;
+}
+
+/* Stats */
+
+#stats {
+    padding-top: 60px;
+}
+
+#stats .txt-large {
+    width: 100%;
+   
+}
+
+/* CLI */
+
+.cli .grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Cloud */
+.cloud .flex-box-2 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Languages */
+
+.languages {
+    text-align: center;
+}
+
+/* Footer */
+
+#mainfooter {
+    text-align: center;
+}
+
+#mainfooter .flex-box {
+    padding-bottom: 20px;
+}
