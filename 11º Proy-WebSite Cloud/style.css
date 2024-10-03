@@ -131,7 +131,11 @@ img {
 }
 
 .bk-docs {
-    background: url(./assets/docs.png);
+    background: url(./assets/bk-docs.jpg)
+}
+
+.bk-alert {
+    background-color: var(--alert-color);
 }
 
 .bk {
@@ -338,6 +342,27 @@ form .form-control {
 .subtitle .flex {
     justify-content: space-between;
     align-items: center;
+}
+
+/* Docs */
+.docs .grid {
+    grid-template-columns: 1fr, 2fr;
+    align-items: flex-start;
+}
+
+.docs h3,
+ul {
+    font-weight: 300;
+}
+
+.docs h3 {
+    margin: 20px 0;
+}
+
+.docs ul li {
+    border-bottom: 1px #ccc solid;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 /* Footer */
