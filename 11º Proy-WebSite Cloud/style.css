@@ -104,6 +104,14 @@ img {
     padding: 4rem 0;
 }
 
+.py-1 {
+    padding: 1rem;
+}
+
+.p-3 {
+    padding: 2rem;
+}
+
 /* Backgrounds */
 
 .bk-main {
@@ -363,6 +371,10 @@ ul {
     border-bottom: 1px #ccc solid;
     padding-bottom: 5px;
     margin-bottom: 5px;
+}
+
+.docs .bk-alert i {
+    padding-right: 10px ;
 }
 
 /* Footer */
