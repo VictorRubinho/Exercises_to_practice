@@ -46,6 +46,12 @@ img {
     max-width: 100%;
 }
 
+pre, code {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
 /* Utility clases */
 
 .container {
