@@ -1,5 +1,50 @@
+/* Reset */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* Main Styling */
+
+.mi__logo {
+    width: 5%;
+}
+
+:root {
+    font-family: 'Afacad Flux', sans-serif;
+    line-height: 1.6rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+a {
+    text-decoration: none;
 }
