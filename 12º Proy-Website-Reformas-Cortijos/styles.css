@@ -212,6 +212,25 @@ a {
     text-align: center;    
 }
 
+/* Portfolio */
+
+.portfolio-row {
+    display: grid;     
+}
+
+.portfolio {
+    background: #f9f9f9;
+    padding: 60px 0;
+}
+
+.portfolio h2 {
+    padding-bottom: 20px;
+}
+
+.portfolio p {
+    width: 90%;
+}
+
 /* Footer */
 
 #mainfooter{
