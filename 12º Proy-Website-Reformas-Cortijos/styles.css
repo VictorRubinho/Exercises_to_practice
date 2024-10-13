@@ -214,21 +214,72 @@ a {
 
 /* Portfolio */
 
-.portfolio-row {
-    display: grid;     
+.container-1 {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 30px;    
 }
+
+.portfolio-row {
+    display: grid;
+    grid-template-columns: repeat(minmax(450px, 4fr));
+    grid-template-rows: repeat(minmax(450px, 4fr));    
+    
+}
+
+.port_casa--1 {    
+    grid-row: 1/4;
+}
+
+.port_casa--1,
+.port_casa--2,
+.port_casa--3,
+.port_casa--4,
+.port_casa--5,
+.port_casa--6,
+.port_casa--7 {
+    grid-column: 1/2;
+}
+
+.port_title--casa-1 {
+    grid-column: 2 /4;
+    grid-row: 1/2;           
+}
+
+.port_title--casa-1,
+.port_title--casa-2,
+.port_title--casa-3,
+.port_title--casa-4,
+.port_title--casa-5,
+.port_title--casa-6,
+.port_title--casa-7 {
+    text-align: center;
+}
+
+.portfolio-row .port_title--casa-1{
+    font-size: 2rem; 
+}
+
+.portfolio-box-1 {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    padding: 0 15px;    
+}
+
 
 .portfolio {
     background: #f9f9f9;
     padding: 60px 0;
 }
 
-.portfolio h2 {
+.container-1 h2 {
     padding-bottom: 20px;
+    text-align: center;
+    font-size: 2.8rem;
 }
 
-.portfolio p {
-    width: 90%;
+.txt_portfolio {
+    font-size: 1.2rem;
 }
 
 /* Footer */
