@@ -223,12 +223,36 @@ a {
 .portfolio-row {
     display: grid;
     grid-template-columns: repeat(minmax(450px, 4fr));
-    grid-template-rows: repeat(minmax(450px, 4fr));    
+    grid-template-rows: repeat(minmax(450px, 7fr));    
     
 }
 
 .port_casa--1 {    
-    grid-row: 1/4;
+    grid-row: 1;
+}
+
+.port_casa--2 {    
+    grid-row: 2;
+}
+
+.port_casa--3 {    
+    grid-row: 3;
+}
+
+.port_casa--4 {    
+    grid-row: 4;
+}
+
+.port_casa--5 {    
+    grid-row: 5;
+}
+
+.port_casa--6 {    
+    grid-row: 6;
+}
+
+.port_casa--7 {    
+    grid-row: 7;
 }
 
 .port_casa--1,
@@ -241,29 +265,48 @@ a {
     grid-column: 1/2;
 }
 
-.port_title--casa-1 {
-    grid-column: 2 /4;
-    grid-row: 1/2;           
+.port_title {
+    font-size: 1.8rem;
+    text-align: center; 
 }
 
-.port_title--casa-1,
-.port_title--casa-2,
-.port_title--casa-3,
-.port_title--casa-4,
-.port_title--casa-5,
-.port_title--casa-6,
-.port_title--casa-7 {
-    text-align: center;
+.portfolio-box-1 {    
+    grid-row: 1;        
 }
 
-.portfolio-row .port_title--casa-1{
-    font-size: 2rem; 
+.portfolio-box-2 {    
+    grid-row: 2;        
 }
 
-.portfolio-box-1 {
+.portfolio-box-3 {    
+    grid-row: 3;        
+}
+
+.portfolio-box-4 {    
+    grid-row: 4;        
+}
+
+.portfolio-box-5 {    
+    grid-row: 5;        
+}
+
+.portfolio-box-6 {    
+    grid-row: 6;        
+}
+
+.portfolio-box-7 {    
+    grid-row: 7;        
+}
+
+.portfolio-box-1,
+.portfolio-box-2,
+.portfolio-box-3,
+.portfolio-box-4,
+.portfolio-box-5,
+.portfolio-box-6,
+.portfolio-box-7 {
+    padding: 0 15px;
     grid-column: 2/4;
-    grid-row: 2/4;
-    padding: 0 15px;    
 }
 
 
@@ -272,14 +315,14 @@ a {
     padding: 60px 0;
 }
 
-.container-1 h2 {
+.main__title__portfolio {
+    font-size: 2.8rem;
     padding-bottom: 20px;
     text-align: center;
-    font-size: 2.8rem;
 }
 
 .txt_portfolio {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /* Footer */
