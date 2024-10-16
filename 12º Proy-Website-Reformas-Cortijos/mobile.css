@@ -106,17 +106,22 @@
 
 /* Portfolio */
 
-
+.container-1 {
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px 10px;       
+}
     
 .portfolio-row {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-auto-rows: repeat(minmax(100%, 14fr)); 
-      
+    grid-auto-rows: repeat(minmax(300px, 14fr));
+    width: 100%;       
 }
 
 .port_casa--1 {    
     grid-row: 1;
+    width: 100%;
 }
 
 .port_casa--2 {    
@@ -172,7 +177,7 @@
 }
 
 .P_box--margin {
-    margin: 0 auto;
+    margin: 10px auto;
         
 }
 
@@ -183,7 +188,7 @@
 .portfolio-box-5,
 .portfolio-box-6,
 .portfolio-box-7 {
-    padding-bottom: 60px;
+    padding-bottom: 70px;
     grid-column: 1;       
 }
 
