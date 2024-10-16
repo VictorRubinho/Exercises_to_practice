@@ -222,8 +222,9 @@ a {
 
 .portfolio-row {
     display: grid;
-    grid-template-columns: repeat(minmax(450px, 4fr));
-    grid-template-rows: repeat(minmax(450px, 7fr));    
+    grid-template-columns: repeat(auto-fill, minmax(450px, 4fr));
+    grid-template-rows: repeat(auto-fill, minmax(450px, 7fr)); 
+    justify-items: center;
     
 }
 
@@ -298,6 +299,10 @@ a {
     grid-row: 7;        
 }
 
+.P_box--margin {
+    margin: 130px 20px;    
+}
+
 .portfolio-box-1,
 .portfolio-box-2,
 .portfolio-box-3,
@@ -307,6 +312,7 @@ a {
 .portfolio-box-7 {
     padding: 0 15px;
     grid-column: 2/4;
+       
 }
 
 
