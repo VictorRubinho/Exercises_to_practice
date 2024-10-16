@@ -104,6 +104,14 @@
     padding-bottom: 20px;
 }
 
+/*work */
+
+.work-row {
+    display: flex;  
+    flex-direction:column;
+    
+}
+
 /* Portfolio */
 
 .container-1 {
