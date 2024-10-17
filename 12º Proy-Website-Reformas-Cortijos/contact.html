@@ -2,10 +2,66 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet"  media="screen and (max-width:768px)" href="./mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacta con nosotros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9c2be7ece.js" crossorigin="anonymous"></script>
+    <title>Reformas de Cortijos | Contacta con Nosotros</title>
 </head>
 <body>
-    
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo"><a href="./index.html">Construcción & Reformas</a></div>
+            <ul>
+                <li><a href="./about.html">Sobre Nosotros</a></li>
+                <li><a href="./work.html">Nuestros Trabajos</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contacta con Nosotros</h2>
+            <form action="">
+                <div class="form-group">
+                    <label for="Name">Nombre</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="Message">Mensagen</label>
+                    <textarea name="message" id="" class="form-control" cols="30" rows="30"></textarea>
+                </div>
+                <button class="btn btn-dark">Send</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer id="mainfooter">
+        <div>
+            <div class="flex-box">
+                <img src="./assets/Mi-logo.png" alt="logotipo de Victor Rubiño" class="mi__logo">
+                <p>Copyright &copy; 2024</p>
+            </div>
+            
+            <div class="flex-box social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
