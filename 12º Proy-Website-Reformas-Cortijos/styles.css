@@ -386,6 +386,20 @@ a {
     padding-bottom: 20px;
 }
 
+/* Contact */
+
+#contact {
+    background: #f9f9f9;
+    padding-top: 60px;
+}
+
+#contact h2 {
+    padding-bottom: 20px;
+}
+
+#contact form {
+    width: 70%;
+}
 /* Animations */
 
 div:has(li:hover) li:not(:hover) {
