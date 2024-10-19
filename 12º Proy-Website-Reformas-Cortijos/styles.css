@@ -62,6 +62,39 @@ a {
     font-size: 16px;
 }
 
+.btn {
+    background: black;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    width: 80%;   
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 6px;
+
+}
+
+form .form-group {
+    margin-bottom: 16px;
+}
+
+form .form-control {
+    display: block;
+    width: 80%;
+    padding: 7px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
 /* Navigation */
 
 #navbar {
@@ -94,7 +127,8 @@ a {
 }
 
 .wrapper a {
-    color: rgb(255, 255, 255);    
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;   
 }
 
 .item {
@@ -104,7 +138,7 @@ a {
     justify-content: end;
     font-size: 1.5rem;    
     font-weight: 800;
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    
 }
 
 .item a {
