@@ -1,0 +1,32 @@
+@import "colors.css";
+@import "common.css";
+@import "header.css";
+@import "navbar.css";
+@import "aside.css";
+
+
+.image__logo {
+    width: 300px;
+}
+
+.image_aside {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    flex: 70%;
+    height: 400px;
+}
+
+
+@media screen and (max-width: 700px){
+    .navbar, .row {
+        flex-direction: column;
+    }
+    
+} 
