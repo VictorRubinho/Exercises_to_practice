@@ -4,6 +4,11 @@ aside {
     background-color: var(--color-gray-light);
 }
 
+.image_aside {
+    width: 100%;
+}
+
+
 aside h2, aside h3 {
     color: var(--color-primary);
 }
