@@ -1,0 +1,20 @@
+.flex__footer {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-content: stretch;
+}
+
+.txt__padding {
+    padding: 0 20px 0 5px;
+}
+
+footer {
+    padding: 5px;    
+    background-color: var(--color-primary-dark);
+    color: white;
+}
+
+.fab {
+    padding: 0 3px;
+}
