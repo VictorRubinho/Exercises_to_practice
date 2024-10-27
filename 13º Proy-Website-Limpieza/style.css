@@ -20,4 +20,7 @@
         flex-direction: column;
     }
     
+    .fa-solid {
+        opacity: 1;
+    }
 } 
