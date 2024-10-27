@@ -5,6 +5,7 @@
 @import "aside.css";
 @import "content.css";
 @import "footer.css";
+@import "flipcard.css";
 
 .image__logo {
     width: 300px;
