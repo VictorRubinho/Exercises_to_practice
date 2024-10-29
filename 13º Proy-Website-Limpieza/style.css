@@ -21,6 +21,10 @@
     }
     
     .fa-solid {
-        opacity: 1;
+        display: initial;
+    }
+
+    .image__logo {
+        width: 200px;
     }
 } 

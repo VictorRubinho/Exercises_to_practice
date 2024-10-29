@@ -17,5 +17,5 @@
 
 .fa-solid {
     padding: 0 8px;
-    opacity: 0;
+    display: none;
 }
