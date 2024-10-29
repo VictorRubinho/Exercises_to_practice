@@ -5,7 +5,7 @@
 }
 
 .flip-card:hover .flip-card-inner{
-    transform: rotateY(180deg);
+    transform: rotateY(180deg);    
 }
 
 .flip-card-front, .flip-card-back {
@@ -33,11 +33,12 @@
 @media screen and (max-width: 700px) {
     .flip-card-back {
         font-size: 3vw;
-    }    
+    }  
     
-    .flip-card:active .flip-card-inner{
-        transform: rotateY(180deg);
+    .flip-card:focus .flip-card-inner{
+        transform: rotateY(180deg);    
     }
+    
 }
 
 
