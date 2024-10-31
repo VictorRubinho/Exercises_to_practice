@@ -1,6 +1,6 @@
 .flip-card-inner {
     text-align: center;
-    transition: transform 0.6s;
+    transition: transform 0.7s;
     transform-style: preserve-3d;
 }
 
@@ -8,10 +8,12 @@
     transform: rotateY(180deg);    
 }
 
-.flip-card-front, .flip-card-back {
+
+.flip-card-back, .flip-card-front {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
+
 
 .flip-card-back {
     position: absolute;
@@ -32,13 +34,8 @@
 
 @media screen and (max-width: 700px) {
     .flip-card-back {
-        font-size: 3vw;
-    }  
-    
-    .flip-card:focus .flip-card-inner{
-        transform: rotateY(180deg);    
-    }
-    
+        font-size: 4vw;
+    }    
 }
 
 
