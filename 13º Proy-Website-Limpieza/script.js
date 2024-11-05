@@ -9,3 +9,7 @@ flipCardInner.style.transform = 'rotateY(180deg)';
 }
 isFlipped = !isFlipped;
 });
+
+function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');
+}
