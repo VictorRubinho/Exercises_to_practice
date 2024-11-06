@@ -16,11 +16,10 @@
 }
 
 ul {
-    list-style: none;
-    height: 100%;
-    display: flex;
+    list-style: none;    
+    /* display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 
 ul a {
@@ -28,8 +27,7 @@ ul a {
 }
 
 ul li {
-    padding: 5px;
-    margin-left: 10px;
+    padding: 5px;    
 }
 
 #hamburguer-icon {
