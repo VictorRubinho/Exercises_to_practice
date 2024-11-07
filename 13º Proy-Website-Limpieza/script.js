@@ -10,6 +10,14 @@ flipCardInner.style.transform = 'rotateY(180deg)';
 isFlipped = !isFlipped;
 });
 
-function toggleMobileMenu(menu) {
-    menu.classList.toggle('open');
-}
+const nav = document.querySelector("#nav");
+const abrir = document.querySelector("#abrir");
+const cerrar = document.querySelector("#cerrar");
+
+abrir.addEventListener("click", () => {
+    nav.classList.add("visible");
+})
+
+cerrar.addEventListener("click", () => {
+    nav.classList.remove("visible");
+})
