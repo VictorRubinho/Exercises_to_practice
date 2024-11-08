@@ -15,9 +15,44 @@
     width: 50px;
 }
 
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-.abrir-menu,
-.cerrar-menu {
+ul a {
+    color: white;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#hamburguer-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+    
+}
+
+#hamburguer-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.5s;    
+}
+
+.mobile-menu {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
     display: none;
 }
 
