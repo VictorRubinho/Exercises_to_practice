@@ -16,11 +16,8 @@
 }
 
 ul {
-    list-style: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    list-style: none;    
+    align-items: center;    
 }
 
 ul a {
@@ -28,8 +25,7 @@ ul a {
 }
 
 ul li {
-    padding: 5px;
-    margin-left: 10px;
+    padding: 5px;    
 }
 
 #hamburguer-icon {
@@ -44,7 +40,7 @@ ul li {
     height: 3px;
     background-color: white;
     margin: 6px 0;
-    transition: 0.5s;    
+    transition: 0.5s;
 }
 
 .mobile-menu {
@@ -56,6 +52,31 @@ ul li {
     display: none;
 }
 
+.mobile-menu li {
+    margin-bottom: 10px;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 
 @media screen and (max-width: 700px){
     .row {
@@ -64,6 +85,7 @@ ul li {
     
     .navbar {
         flex-direction: column;
+        align-items: center; 
     } 
 
     .image__logo {
@@ -72,24 +94,14 @@ ul li {
 
     .fa-solid {
         display: initial;
-    }      
+    }   
+
+    .navbar> a {
+        display: none;
+    }    
     
-    .navbar {
-        opacity: 0;
-        visibility: hidden;             
-    }
-
-    .abrir-menu,
-    .cerrar-menu {
-    display: block;
-    background-color: transparent;
-    border: 0;
-    font-size: 1.25rem;
-}
-
-    .navbar.visible {
-        opacity: 1;
-        visibility: visible;
+    #hamburguer-icon {
+        display: block;               
     }
     
 } 

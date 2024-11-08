@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9c2be7ece.js" crossorigin="anonymous"></script>
     <title>Magic Cleaner | La magia de la Limpieza</title>
 </head>
 <body>
@@ -22,13 +23,28 @@
         </div>
     </header>
 
-    <!-- Navigation -->
-     
-    <nav class="navbar">
-        <a href="./index.html">Inicio</a>
-        <a href="./cristales.html">Limpieza de cristales</a>
-        <a href="./oficina.html"> Limpieza de oficinas</a>
-        <a href="#">Contacto</a>
+    <!-- Navigation -->    
+
+    <nav class="navbar" id="nav">
+
+        <div id="hamburguer-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./cristales.html">Limpieza de cristales</a></li>
+                <li><a href="./oficina.html"> Limpieza de oficinas</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+            </ul>           
+        </div>      
+        
+            <a href="./index.html"></i>Inicio</a>
+            <a href="./cristales.html">Limpieza de cristales</a>
+            <a href="./oficina.html"> Limpieza de oficinas</a>
+            <a href="./contact.html">Contacto</a>
+        
+        
     </nav>
     
         <!-- Content -->
@@ -47,6 +63,25 @@
             </article>
         </section>
     </div>
+
+
+    <!-- Footer -->
+
+    <footer >
+        <div class="flex__footer">
+            
+            <img src="./assets/Mi-logo.png" alt="logotipo de Victor Rubiño" class="mi__logo">
+                
+            <p class="txt__padding">Victor Rubiño &copy; 2024</p>
+              
+            <a href="https://github.com/VictorRubinho"><i class="fab fa-github fa-2x" style="color: white;"></i></a>
+            <a href="https://dev.to/victor_rubio_0d61a39a985"><i class="fab fa-brands fa-dev fa-2x" style="color: lightgray;"></i></a>
+            <a href="www.linkedin.com/in/victor-rubiño-89a28786" style="color: lightblue;"><i class=" fab fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="#"><i class="fab fa-brands fa-youtube fa-2x" style="color: lightcoral;"></i></a>                
+            
+        </div>
+    </footer>
+    <script src="./script.js"></script>
     
 </body>
 </html>

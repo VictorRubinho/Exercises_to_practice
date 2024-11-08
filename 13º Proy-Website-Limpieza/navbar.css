@@ -10,20 +10,10 @@
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
-    transition: 0.5s;
 }
 
 .navbar a:hover {
     background-color: var(--color-primary-dark);
     transform: scale(1.1);
     
-}
-
-.fa-solid {
-    padding: 0 10px;
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-    transition: 0.5s;    
 }
