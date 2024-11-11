@@ -17,3 +17,65 @@
     transform: scale(1.1);
     
 }
+
+ul {
+    list-style: none;    
+    align-items: center;    
+}
+
+ul a {
+    color: white;
+}
+
+ul li {
+    padding: 5px;    
+}
+
+#hamburguer-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+    
+}
+
+#hamburguer-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.5s;
+}
+
+.mobile-menu {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+    display: none;
+}
+
+.mobile-menu li {
+    margin-bottom: 10px;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
