@@ -1,6 +1,7 @@
 
-  .container__Contact{
-    background: linear-gradient(115deg, #114570 10%, #1be1e6 90%);
+  
+  section.container__Contact{
+    background: linear-gradient(115deg, #114570 10%, #0b2a44 90%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +12,7 @@
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   }
-  .container .text{
+  .container__Contact .text{
     text-align: center;
     font-size: 41px;
     font-weight: 600;
@@ -20,10 +21,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .container form{
+  .container__Contact form{
     padding: 30px 0 0 0;
   }
-  .container form .form-row{
+  .container__Contact form .form-row{
     display: flex;
     margin: 32px 0;
   }
@@ -43,13 +44,13 @@
     height: 100%;
     border: none;
     font-size: 17px;
-    border-bottom: 2px solid rgba(0,0,0, 0.12);
+    border-bottom: 2px solid rgba(17, 69, 112, 0.12);
   }
   .input-data input:focus ~ label, .textarea textarea:focus ~ label,
   .input-data input:valid ~ label, .textarea textarea:valid ~ label{
-    transform: translateY(-20px);
+    transform: translateY(-30px);
     font-size: 14px;
-    color: #3498db;
+    color: var(--color-primary);
   }
   .textarea textarea{
     resize: none;
@@ -65,7 +66,7 @@
   .textarea label{
     width: 100%;
     bottom: 40px;
-    background: #fff;
+    
   }
   .input-data .underline{
     position: absolute;
@@ -118,13 +119,13 @@
     z-index: 2;
   }
   @media (max-width: 700px) {
-    .container .text{
+    .container__Contact .text{
       font-size: 30px;
     }
-    .container form{
+    .container__Contact form{
       padding: 10px 0 0 0;
     }
-    .container form .form-row{
+    .container__Contact form .form-row{
       display: block;
     }
     form .form-row .input-data{
