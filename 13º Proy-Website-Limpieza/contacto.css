@@ -1,17 +1,20 @@
 
   
-  section.container__Contact{
-    background: linear-gradient(115deg, #114570 10%, #0b2a44 90%);
-    display: flex;
+  .container__Contact{
+    background: linear-gradient(180deg, white, #114570);
+    display: flex;    
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    max-width: 800px;
-    background: #fff;
-    width: 800px;
+    max-width: 100vh;    
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   }
+
+  .container__Contact h2 {
+    color: #000000;
+    text-align: center;
+  }
+
   .container__Contact .text{
     text-align: center;
     font-size: 41px;
@@ -21,22 +24,28 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
   .container__Contact form{
     padding: 30px 0 0 0;
   }
+
   .container__Contact form .form-row{
     display: flex;
     margin: 32px 0;
+    
   }
+
   form .form-row .input-data{
     width: 100%;
     height: 40px;
     margin: 0 20px;
     position: relative;
   }
+
   form .form-row .textarea{
     height: 70px;
   }
+
   .input-data input,
   .textarea textarea{
     display: block;
@@ -46,11 +55,12 @@
     font-size: 17px;
     border-bottom: 2px solid rgba(17, 69, 112, 0.12);
   }
+
   .input-data input:focus ~ label, .textarea textarea:focus ~ label,
   .input-data input:valid ~ label, .textarea textarea:valid ~ label{
-    transform: translateY(-30px);
+    transform: translateY(-35px);
     font-size: 14px;
-    color: var(--color-primary);
+    color: white
   }
   .textarea textarea{
     resize: none;
@@ -79,7 +89,7 @@
     content: "";
     height: 2px;
     width: 100%;
-    background: #3498db;
+    background: var(--color-secundary-dark);
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 0.3s ease;
