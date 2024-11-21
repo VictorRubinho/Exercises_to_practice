@@ -134,4 +134,7 @@
     .submit-btn .input-data{
       width: 40%!important;
     }
+    .submit-btn {
+      padding-left: 25px;
+    }
   }
