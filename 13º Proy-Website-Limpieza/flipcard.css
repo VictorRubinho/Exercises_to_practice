@@ -38,6 +38,10 @@
     color: white;
 }
 
+video {
+    width: 400px;
+}
+
 @media screen and (max-width: 700px) {
     .flip-card-back {
         font-size: 4vw;
