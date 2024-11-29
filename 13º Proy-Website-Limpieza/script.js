@@ -13,3 +13,19 @@ isFlipped = !isFlipped;
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
 }
+
+
+// Para Video
+
+const flipCardInnerVideo = document.getElementById('flipCardInnerVideo');
+let isFlippedVideo = false;
+
+document.getElementById('flipCardVideo').addEventListener('click', function() {
+if (isFlippedVideo) {
+flipCardInnerVideo.style.transform = 'rotateY(0deg)';
+} else {
+flipCardInnerVideo.style.transform = 'rotateY(180deg)';
+}
+isFlippedVideo = !isFlippedVideo;
+});
+
