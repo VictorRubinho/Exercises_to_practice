@@ -39,7 +39,7 @@
 }
 
 
-/* Flip Carda para Video */
+/* Flip Card para Video */
 
 .flip-card-video {
     perspective: 1000px;
@@ -61,10 +61,11 @@
 .flip-card-back-video, .flip-card-front-video {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
+   
 }
 
 .flip-card-front-video {
-    width: 450px;
+    width: 350px;
     height: 270px;
     
 }
@@ -86,7 +87,6 @@
 
 
 video {
-    width: 400px;
     border-radius: 10px;
 }
 
