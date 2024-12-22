@@ -41,8 +41,7 @@
 
 /* Flip Card para Video */
 
-.flip-card-video {
-    perspective: 1000px;
+.flip-card-video {    
     cursor: pointer;
 }
 
@@ -64,8 +63,8 @@
    
 }
 
-.flip-card-front-video {
-    width: 350px;
+.flip-card-front-video img {
+    width: 450px;
     height: 270px;
     
 }
