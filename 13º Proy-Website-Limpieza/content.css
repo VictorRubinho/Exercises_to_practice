@@ -107,3 +107,26 @@ section video {
 #more-post:hover {
     color: var(--color-primary-dark);
 }
+
+@media screen and (max-width: 700px) { 
+    .grid { 
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr); 
+    }   
+    
+    .GRID__derecha {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .GRID__Izquierda{
+        grid-row: 3;
+    }
+    .GRID__izquierda_abajo{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .GRID__derecha_abajo {
+        grid-column: 1;
+        grid-row: 5;
+    }
+}
