@@ -46,7 +46,6 @@
 }
 
 .flip-card-inner-video {
-    text-align: center;
     transition: transform 0.7s;
     transform-style: preserve-3d;
     
@@ -70,23 +69,12 @@
 }
 
 
-.flip-card-back-video {
-    position: absolute;
-    top: 0;
+.flip-card-back-video {   
     width: 450px;
     height: 270px;
-    background-color: var(--color-primary);
-    color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
-    padding: 25px;
-    font-size: 1vw;
-    
-}
-
-
-video {
-    border-radius: 10px;
+    overflow: hidden;  
 }
 
 /* Media Query */
